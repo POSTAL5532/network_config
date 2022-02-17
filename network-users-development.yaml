@@ -1,8 +1,6 @@
 server:
   port: 8081
 spring:
-  application:
-    name: network-users
   datasource:
     url: jdbc:postgresql://database:5432/network
     driver-class-name: org.postgresql.Driver
