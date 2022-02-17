@@ -1,8 +1,6 @@
 server:
   port: 8083
 spring:
-  application:
-    name: network-messages
   datasource:
     url: jdbc:postgresql://database:5432/network
     driver-class-name: org.postgresql.Driver
