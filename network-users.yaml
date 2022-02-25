@@ -8,5 +8,7 @@ spring:
     password: root
 eureka:
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://network-discovery-server:8761/eureka/
+  instance:
+    prefer-ip-address: true
